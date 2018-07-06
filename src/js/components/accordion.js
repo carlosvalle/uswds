@@ -117,4 +117,4 @@ Accordion.prototype.remove = function () {
   accordion.off(this.root);
 };
 
-module.exports = Accordion;
+module.exports = accordion;

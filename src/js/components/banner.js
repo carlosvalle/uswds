@@ -1,3 +1,5 @@
+// is this supposed to be an aria-type toggle as well?
+// can we reuse toggle behavior here
 'use strict';
 const behavior = require('../utils/behavior');
 const toggle = require('../utils/toggle');

@@ -8,8 +8,8 @@ const domready = require('domready');
 require('./polyfills');
 
 const uswds = require('./config');
-
 const components = require('./components');
+
 uswds.components = components;
 
 domready(() => {
