@@ -651,6 +651,7 @@ functions and mixins.
 
 @function get-uswds-value($property, $value...){
   @if type-of($value) == 'arglist' and nth($value, 1) == override {
+    @warn "Override value set: `#{nth($value, 2)}`. Please consider using USWDS values. Only components built with USWDS values can be accepted back into the system.";
     @return nth($value, 2);
   }
   $value: nth($value, 1);
